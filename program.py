@@ -1,3 +1,9 @@
+# ONE LINE A DAY PROGRAM
+
+# rules:
+# write 1 line of python code a day or change one line a day
+# one statement per line
+
 import time, math, pygame
 
 pygame.init()
