@@ -22,7 +22,8 @@ CLOCK = pygame.time.Clock()
 
 BGCOLOR = (0, 0, 0) # black
 
-class Button: pass
+class Button: 
+    def __init__ (self, x, y, width, height, color, txt_col, text="", font_size=32): pass
 
 def draw(): 
     pygame.draw.rect(
