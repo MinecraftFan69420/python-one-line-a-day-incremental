@@ -24,7 +24,7 @@ BGCOLOR = (0, 0, 0) # black
 
 class Button: 
     def __init__ (self, x, y, width, height, color, txt_col, text="", font_size=32): 
-        self.loc = (x, y)
+        self.rectangle = pygame.Rect(x, y, width, height)
 
 def draw(): 
     pygame.draw.rect(
